@@ -1,0 +1,713 @@
+
+local Scripty = Instance.new("ScreenGui")
+local Loaded = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Backround = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Page = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local PageOne = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PageTwo = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local PageOne_2 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local PageOne_3 = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local MM2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Ragdoll = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Sprint = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Nullware = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local NullwareHub = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local IY = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local NaturalDisaster = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local AudioPlayer = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local PageTwo_2 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local PageOne_4 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_20 = Instance.new("UICorner")
+local Speed = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Jumppower = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Audio = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Sound = Instance.new("Sound")
+--Properties:
+
+Scripty.Name = "Scripty"
+Scripty.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Scripty.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Scripty.ResetOnSpawn = false
+
+Loaded.Name = "Loaded"
+Loaded.Parent = Scripty
+Loaded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loaded.Position = UDim2.new(0.303418785, 0, 0.0466666818, 0)
+Loaded.Size = UDim2.new(0.391737878, 0, 0.108888887, 0)
+Loaded.Visible = false
+
+UICorner.CornerRadius = UDim.new(0.25, 0)
+UICorner.Parent = Loaded
+
+TextLabel.Parent = Loaded
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made By XxCute_PumpkinsxX / JustAKitten#0320"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Backround.Name = "Backround"
+Backround.Parent = Scripty
+Backround.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Backround.Position = UDim2.new(0.0313390307, 0, 0.099999994, 0)
+Backround.Size = UDim2.new(0.937321961, 0, 0.664444447, 0)
+Backround.Visible = false
+
+UICorner_2.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_2.Parent = Backround
+
+Page.Name = "Page"
+Page.Parent = Backround
+Page.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Page.Position = UDim2.new(-0.000575891754, 0, 0.936454952, 0)
+Page.Size = UDim2.new(1.0005759, 0, 0.199919358, 0)
+Page.ZIndex = 2
+
+UICorner_3.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_3.Parent = Page
+
+PageOne.Name = "PageOne"
+PageOne.Parent = Page
+PageOne.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+PageOne.Position = UDim2.new(0.0410099067, 0, -0.117104076, 0)
+PageOne.Size = UDim2.new(0.157963648, 0, 0.869916022, 0)
+PageOne.ZIndex = 2
+PageOne.Font = Enum.Font.SourceSans
+PageOne.Text = "One"
+PageOne.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageOne.TextScaled = true
+PageOne.TextSize = 14.000
+PageOne.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = PageOne
+
+PageTwo.Name = "PageTwo"
+PageTwo.Parent = Page
+PageTwo.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+PageTwo.Position = UDim2.new(0.223275751, 0, -0.117104076, 0)
+PageTwo.Size = UDim2.new(0.157963648, 0, 0.869916022, 0)
+PageTwo.ZIndex = 2
+PageTwo.Font = Enum.Font.SourceSans
+PageTwo.Text = "Two"
+PageTwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageTwo.TextScaled = true
+PageTwo.TextSize = 14.000
+PageTwo.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = PageTwo
+
+Close.Name = "Close"
+Close.Parent = Page
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.874879003, 0, 0.317853421, 0)
+Close.Size = UDim2.new(0.109951906, 0, 0.596711397, 0)
+Close.ZIndex = 2
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_6.Parent = Close
+
+TextLabel_2.Parent = Page
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.818677425, 0, -0.70262444, 0)
+TextLabel_2.Size = UDim2.new(0.1813225, 0, 1.02047789, 0)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made By XxCute_PumpkinsxX / JustAKitten#0320"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Frame.Parent = Backround
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0.818573117, 0, 0.795986712, 0)
+Frame.Size = UDim2.new(0.181426927, 0, 0.204013303, 0)
+
+UICorner_7.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_7.Parent = Frame
+
+Frame_2.Parent = Backround
+Frame_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame_2.Position = UDim2.new(0.0146217691, 0, 0.862876356, 0)
+Frame_2.Size = UDim2.new(0.780211031, 0, 0.137123659, 0)
+
+UICorner_8.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_8.Parent = Frame_2
+
+PageOne_2.Name = "PageOne"
+PageOne_2.Parent = Backround
+PageOne_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PageOne_2.Position = UDim2.new(0.0136777656, 0, 0.0367893241, 0)
+PageOne_2.Size = UDim2.new(0.791217566, 0, 0.795986593, 0)
+
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.85, 0.01), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient.Parent = PageOne_2
+
+UICorner_9.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_9.Parent = PageOne_2
+
+PageOne_3.Name = "PageOne"
+PageOne_3.Parent = PageOne_2
+PageOne_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PageOne_3.Position = UDim2.new(0.951019645, 0, -0.00102576893, 0)
+PageOne_3.Size = UDim2.new(0.276447862, 0, 0.909432054, 0)
+
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.85, 0.01), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_2.Parent = PageOne_3
+
+UICorner_10.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_10.Parent = PageOne_3
+
+ImageLabel.Parent = PageOne_3
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-3.31423521, 0, 0.0369609222, 0)
+ImageLabel.Size = UDim2.new(0.767764151, 0, 0.420430481, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=838484750"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+ImageLabel_2.Parent = PageOne_3
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(-2.34150362, 0, 0.0369609222, 0)
+ImageLabel_2.Size = UDim2.new(0.767764151, 0, 0.420430481, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6350353428"
+ImageLabel_2.ScaleType = Enum.ScaleType.Fit
+
+ImageLabel_3.Parent = PageOne_3
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(-1.40351248, 0, 0.0369609222, 0)
+ImageLabel_3.Size = UDim2.new(0.767764151, 0, 0.420430481, 0)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=1921587812"
+ImageLabel_3.ScaleType = Enum.ScaleType.Fit
+
+ImageLabel_4.Parent = PageOne_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(-0.517037988, 0, -1.76243411e-08, 0)
+ImageLabel_4.Size = UDim2.new(0.665798485, 0, 0.453899235, 0)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=3307640168"
+ImageLabel_4.ScaleType = Enum.ScaleType.Fit
+
+MM2.Name = "MM2"
+MM2.Parent = PageOne_2
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.Position = UDim2.new(0.0192078836, 0, 0.415966392, 0)
+MM2.Size = UDim2.new(0.245132416, 0, 0.163865522, 0)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "Murder Mystery 2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_11.Parent = MM2
+
+Ragdoll.Name = "Ragdoll"
+Ragdoll.Parent = PageOne_2
+Ragdoll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ragdoll.Position = UDim2.new(0.288117439, 0, 0.415966392, 0)
+Ragdoll.Size = UDim2.new(0.245132416, 0, 0.163865522, 0)
+Ragdoll.Font = Enum.Font.SourceSans
+Ragdoll.Text = "Ragdoll Engine"
+Ragdoll.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ragdoll.TextScaled = true
+Ragdoll.TextSize = 14.000
+Ragdoll.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_12.Parent = Ragdoll
+
+Sprint.Name = "Sprint"
+Sprint.Parent = PageOne_2
+Sprint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sprint.Position = UDim2.new(0.547423065, 0, 0.415966392, 0)
+Sprint.Size = UDim2.new(0.245132416, 0, 0.163865522, 0)
+Sprint.Font = Enum.Font.SourceSans
+Sprint.Text = "Local Player"
+Sprint.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sprint.TextScaled = true
+Sprint.TextSize = 14.000
+Sprint.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_13.Parent = Sprint
+
+Nullware.Name = "Nullware"
+Nullware.Parent = PageOne_2
+Nullware.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nullware.Position = UDim2.new(0.303483695, 0, 0.825444877, 0)
+Nullware.Size = UDim2.new(0.286428869, 0, 0.145143345, 0)
+Nullware.Font = Enum.Font.SourceSans
+Nullware.Text = "Nullware Reanimate Netless (UPDATED)"
+Nullware.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nullware.TextScaled = true
+Nullware.TextSize = 14.000
+Nullware.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_14.Parent = Nullware
+
+NullwareHub.Name = "NullwareHub"
+NullwareHub.Parent = PageOne_2
+NullwareHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NullwareHub.Position = UDim2.new(0.303483695, 0, 0.630252123, 0)
+NullwareHub.Size = UDim2.new(0.286428869, 0, 0.145143345, 0)
+NullwareHub.Font = Enum.Font.SourceSans
+NullwareHub.Text = "Nullware Hub Netless (UPDATED)"
+NullwareHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+NullwareHub.TextScaled = true
+NullwareHub.TextSize = 14.000
+NullwareHub.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_15.Parent = NullwareHub
+
+IY.Name = "IY"
+IY.Parent = PageOne_2
+IY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IY.Position = UDim2.new(0.0172871351, 0, 0.806722701, 0)
+IY.Size = UDim2.new(0.245132416, 0, 0.163865522, 0)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_16.Parent = IY
+
+NaturalDisaster.Name = "Natural Disaster"
+NaturalDisaster.Parent = PageOne_2
+NaturalDisaster.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NaturalDisaster.Position = UDim2.new(0.0172871351, 0, 0.613445401, 0)
+NaturalDisaster.Size = UDim2.new(0.245132416, 0, 0.163865522, 0)
+NaturalDisaster.Font = Enum.Font.SourceSans
+NaturalDisaster.Text = "Natural Disaster Survival"
+NaturalDisaster.TextColor3 = Color3.fromRGB(0, 0, 0)
+NaturalDisaster.TextScaled = true
+NaturalDisaster.TextSize = 14.000
+NaturalDisaster.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_17.Parent = NaturalDisaster
+
+TextLabel_3.Parent = PageOne_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.616571188, 0, 0.798319399, 0)
+TextLabel_3.Size = UDim2.new(0.333488435, 0, 0.172901571, 0)
+TextLabel_3.Font = Enum.Font.Roboto
+TextLabel_3.Text = "Nullware Made By Whxted#4382"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+AudioPlayer.Name = "AudioPlayer"
+AudioPlayer.Parent = PageOne_2
+AudioPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AudioPlayer.Position = UDim2.new(0.802887142, 0, 0.411764711, 0)
+AudioPlayer.Size = UDim2.new(0.195919856, 0, 0.163865522, 0)
+AudioPlayer.Font = Enum.Font.SourceSans
+AudioPlayer.Text = "Audio Player"
+AudioPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+AudioPlayer.TextScaled = true
+AudioPlayer.TextSize = 14.000
+AudioPlayer.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_18.Parent = AudioPlayer
+
+PageTwo_2.Name = "PageTwo"
+PageTwo_2.Parent = Backround
+PageTwo_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PageTwo_2.Position = UDim2.new(0.0136777656, 0, 0.0367893241, 0)
+PageTwo_2.Size = UDim2.new(0.791217566, 0, 0.795986593, 0)
+PageTwo_2.Visible = false
+
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.85, 0.01), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_3.Parent = PageTwo_2
+
+UICorner_19.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_19.Parent = PageTwo_2
+
+PageOne_4.Name = "PageOne"
+PageOne_4.Parent = PageTwo_2
+PageOne_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PageOne_4.Position = UDim2.new(0.951019645, 0, -0.00102576893, 0)
+PageOne_4.Size = UDim2.new(0.276447862, 0, 0.909432054, 0)
+
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.85, 0.01), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_4.Parent = PageOne_4
+
+UICorner_20.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_20.Parent = PageOne_4
+
+Speed.Name = "Speed"
+Speed.Parent = Backround
+Speed.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.818573117, 0, 0.0367893241, 0)
+Speed.Size = UDim2.new(0.166298538, 0, 0.723079205, 0)
+Speed.Visible = false
+
+UICorner_21.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_21.Parent = Speed
+
+TextBox.Parent = Speed
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.109664716, 0, 0.841810465, 0)
+TextBox.Size = UDim2.new(0, 86, 0, 26)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Set Speed Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_22.Parent = TextBox
+
+TextButton.Parent = Speed
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.109664716, 0, 0.726177156, 0)
+TextButton.Size = UDim2.new(0.785930395, 0, 0.0832559839, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Set Speed"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0.200000003, 0)
+UICorner_23.Parent = TextButton
+
+Jumppower.Name = "Jumppower"
+Jumppower.Parent = Speed
+Jumppower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jumppower.Position = UDim2.new(0.10052599, 0, 0.5180372, 0)
+Jumppower.Size = UDim2.new(0, 86, 0, 26)
+Jumppower.Font = Enum.Font.SourceSans
+Jumppower.PlaceholderText = "Set Jumppower here"
+Jumppower.Text = ""
+Jumppower.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jumppower.TextScaled = true
+Jumppower.TextSize = 14.000
+Jumppower.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_24.Parent = Jumppower
+
+TextButton_2.Parent = Speed
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.10052599, 0, 0.407029241, 0)
+TextButton_2.Size = UDim2.new(0.785930395, 0, 0.0832559839, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Set Jumppower"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0.200000003, 0)
+UICorner_25.Parent = TextButton_2
+
+TextLabel_4.Parent = Speed
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(1, 0, 0.282145262, 0)
+TextLabel_4.Font = Enum.Font.Roboto
+TextLabel_4.Text = "Easily Scripted By XxCute_PumpkinsX"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Audio.Name = "Audio"
+Audio.Parent = Backround
+Audio.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Audio.BorderSizePixel = 0
+Audio.Position = UDim2.new(0.818573117, 0, 0.0367893241, 0)
+Audio.Size = UDim2.new(0.166298538, 0, 0.723079205, 0)
+
+UICorner_26.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_26.Parent = Audio
+
+TextBox_2.Parent = Audio
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.Position = UDim2.new(0, 0, 0.638295829, 0)
+TextBox_2.Size = UDim2.new(0.996121168, 0, 0.180387959, 0)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.PlaceholderText = "Audio ID Here"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_27.Parent = TextBox_2
+
+TextButton_3.Parent = Audio
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0365549065, 0, 0.420905232, 0)
+TextButton_3.Size = UDim2.new(0.899177194, 0, 0.157261297, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Play Audio"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0.200000003, 0)
+UICorner_28.Parent = TextButton_3
+
+TextLabel_5.Parent = Audio
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(1, 0, 0.282145262, 0)
+TextLabel_5.Font = Enum.Font.Roboto
+TextLabel_5.Text = "Easily Scripted By XxCute_PumpkinsX"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = Scripty
+Open.BackgroundColor3 = Color3.fromRGB(26, 60, 255)
+Open.Position = UDim2.new(0, 0, 0.900000036, 0)
+Open.Size = UDim2.new(0.150997147, 0, 0.100000001, 0)
+Open.Visible = false
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_29.Parent = Open
+
+-- Scripts:
+
+local function EAQV_fake_script() -- PageOne.LocalScript 
+	local script = Instance.new('LocalScript', PageOne)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.PageTwo.Visible = false
+		script.Parent.Parent.Parent.PageOne.Visible = true
+	end)
+end
+coroutine.wrap(EAQV_fake_script)()
+local function DSMNP_fake_script() -- PageTwo.LocalScript 
+	local script = Instance.new('LocalScript', PageTwo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.PageTwo.Visible = true
+		script.Parent.Parent.Parent.PageOne.Visible = false
+	end)
+end
+coroutine.wrap(DSMNP_fake_script)()
+local function PRGDHX_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.Parent.Backround.Visible = false
+	script.Parent.Parent.Parent.Parent.Open.Visible = true
+	end)
+end
+coroutine.wrap(PRGDHX_fake_script)()
+local function ZNXQFMM_fake_script() -- MM2.LocalScript 
+	local script = Instance.new('LocalScript', MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"), true))()
+	end)
+end
+coroutine.wrap(ZNXQFMM_fake_script)()
+local function ZZDKAQ_fake_script() -- Ragdoll.LocalScript 
+	local script = Instance.new('LocalScript', Ragdoll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+	end)
+end
+coroutine.wrap(ZZDKAQ_fake_script)()
+local function AAVSDU_fake_script() -- Sprint.LocalScript 
+	local script = Instance.new('LocalScript', Sprint)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.Speed.Visible = not script.Parent.Parent.Parent.Speed.Visible
+	script.Parent.Parent.Parent.Audio.Visible = false
+	end)
+end
+coroutine.wrap(AAVSDU_fake_script)()
+local function ZPLXFMJ_fake_script() -- Nullware.LocalScript 
+	local script = Instance.new('LocalScript', Nullware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		getgenv().Nullware_ReanimateConfiguration = {
+			["Netless"] = true,
+			["Hats To Align"] = {},
+			["Head Movement"] = false,
+			["R15 To R6"] = false,
+			["Godmode"] = false
+		}
+		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/8cd532018277ee9982433eea25a6c14f/raw/sewMjTpJvVBLR96L"))()
+	end)
+end
+coroutine.wrap(ZPLXFMJ_fake_script)()
+local function SGEBW_fake_script() -- NullwareHub.LocalScript 
+	local script = Instance.new('LocalScript', NullwareHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
+	end)
+end
+coroutine.wrap(SGEBW_fake_script)()
+local function KDTX_fake_script() -- IY.LocalScript 
+	local script = Instance.new('LocalScript', IY)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(KDTX_fake_script)()
+local function MLCJIZ_fake_script() -- NaturalDisaster.LocalScript 
+	local script = Instance.new('LocalScript', NaturalDisaster)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+	end)
+end
+coroutine.wrap(MLCJIZ_fake_script)()
+local function RXXBHVX_fake_script() -- AudioPlayer.LocalScript 
+	local script = Instance.new('LocalScript', AudioPlayer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.Audio.Visible = not script.Parent.Parent.Parent.Audio.Visible
+	script.Parent.Parent.Parent.Speed.Visible = false
+	end)
+end
+coroutine.wrap(RXXBHVX_fake_script)()
+local function XRQVOW_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.TextBox.Text
+	end) 
+end
+coroutine.wrap(XRQVOW_fake_script)()
+local function JIDDBNO_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Parent.Jumppower.Text
+	end) 
+end
+coroutine.wrap(JIDDBNO_fake_script)()
+local function GZBP_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	wait(1)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Sound.SoundId = "rbxassetid://"..script.Parent.Parent.TextBox.Text
+		script.Parent.Parent.Sound:Play()
+		print(script.Parent.Parent.TextBox.Text)
+	end) 
+end
+coroutine.wrap(GZBP_fake_script)()
+local function JSDRO_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Visible = false
+	script.Parent.Parent.Backround.Visible = true
+	end)
+end
+Sound.Parent = Audio
+coroutine.wrap(JSDRO_fake_script)()
+local function ZFLRW_fake_script() -- Scripty.LoadIt 
+	local script = Instance.new('LocalScript', Scripty)
+
+	wait(0.5)
+	script.Parent.Loaded.Visible = true
+	script.Parent.Backround.Visible = false
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Made By", Text = "XxCute_PumpkinsxX"})
+	wait(5)
+	script.Parent.Loaded.Visible = false
+	wait(0.5)
+	script.Parent.Backround.Visible = true
+	script.Parent.Ding:Play()
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "DM Me For Help Or Suggestions", Text = "JustAKitten#0320"})
+end
+coroutine.wrap(ZFLRW_fake_script)()
